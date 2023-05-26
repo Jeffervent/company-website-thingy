@@ -1,0 +1,32 @@
+:root {
+    --primary-blue: #0C2340;
+    --secondary-blue: #004F9E;
+    --light-blue: #83C5F7;
+    --dark-green: #006736;
+    --light-green: #80DA65;
+    --white: #FFFFFF;
+  }
+  
+
+  body {
+    background-color: var(--primary-blue);
+    color: var(--white);
+  }
+  
+  h1, h2, h3 {
+    color: var(--secondary-blue);
+  }
+  
+  a {
+    color: var(--light-blue);
+  }
+  
+  p {
+    color: var(--white);
+  }
+  
+  button {
+    background-color: var(--light-green);
+    color: var(--primary-blue);
+  }
+  
