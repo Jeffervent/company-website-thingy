@@ -1,15 +1,15 @@
 :root {
-    --primary-blue: #0C2340;
-    --secondary-blue: #004F9E;
+    --primary-blue: #508FFF;
+    --secondary-blue: #50ceff;
     --light-blue: #83C5F7;
-    --dark-green: #006736;
-    --light-green: #80DA65;
+    --dark-light-green: #5aff4a;
+    --light-green: #9cff6a;
     --white: #FFFFFF;
     --mu-blue: #004C9C;
     --mu-green: #29ABE2;
     
     /* Secondary Colors */
-    --mu-purple: #372061;
+    --mu-purple: #b38dff;
     --mu-yellow: #FFD700;
     --mu-orange: #F7941D;
   }
