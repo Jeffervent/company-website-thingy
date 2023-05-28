@@ -37,3 +37,25 @@
     color: var(--primary-blue);
   }
   
+  .green_circle {
+    background-color: var(--light-green);
+    border-radius : 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:var(--mu-blue);
+  }
+
+  .nav-links a {
+    color:var(--white);
+  }
+
+  .logo {
+    font-size: 32px;
+  }
