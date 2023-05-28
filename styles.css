@@ -14,10 +14,22 @@
     --mu-orange: #F7941D;
   }
   
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   body {
-    background-color: var(--primary-blue);
-    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
   }
   
   h1, h2, h3 {
