@@ -1,18 +1,20 @@
 :root {
     --primary-blue: #508FFF;
     --secondary-blue: #50ceff;
-    --light-blue: #83C5F7;
+    --light-blue: #007cb8;
     --dark-light-green: #5aff4a;
     --light-green: #9cff6a;
     --white: #FFFFFF;
     --mu-blue: #004C9C;
+    --mu-oblue: #01356d3b;
+    --mu-odblue: #0011243b;
     --mu-green: #29ABE2;
     --black: #000000;
     
-    /* Secondary Colors */
-    --mu-purple: #b38dff;
-    --mu-yellow: #FFD700;
-    --mu-orange: #F7941D;
+    /* alumni bg colors */
+    --mu-cwhite: #ffffff6b;
+    --mu-cblue: #004b9c70;
+    --mu-cpurple: #623078;
   }
   
   *{
@@ -23,6 +25,7 @@
 
   body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 1000vh;
   }
 
   a {
@@ -42,7 +45,7 @@
   }
   
   p {
-    color: var(--white);
+    color: var(--mu-blue);
   }
   
   button {
@@ -59,9 +62,11 @@
   }
 
 
+
    /*nav bar*/
   .navbar{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -95,4 +100,108 @@
 
   .menu li{
     padding: 5px 14px;
+  }
+
+     /*background cont*/
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover ;
+    background-image:linear-gradient(var(--mu-oblue),var(--mu-odblue)), url(images/campus.jpg) ;
+    background-attachment: fixed ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+   /*alumni stuff*/
+
+   .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .content .textBox{
+    position: relative;
+    max-width: 800px;
+   }
+
+   .content .textBox h2{
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+   }
+
+   .content .textBox h2 span{
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+
+   .content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 500px;
+   }
+
+   .content .imgBox img{
+    max-width: 600px;
+   }
+
+   .stud{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(25%);
+    display: flex;
+   }
+
+   .stud li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+   }
+
+   .stud li:hover{
+    transform: translateY(-15px) ;
+   }
+
+   .stud li img{
+    max-width: 60px;
+   }
+
+   .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background: var(--mu-cblue);
+    clip-path: circle(600px at right 800px);
+    transition: 0.5s;
+   }
+
+   .container2{
+    width: 100%;
+    height: 825px;
+    background-position: center;
+    background-size: cover ;
+    background-image:linear-gradient(var(--mu-oblue),var(--mu-odblue)), url(images/Campus2.jpg) ;
+    background-attachment: fixed ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }

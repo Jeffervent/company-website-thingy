@@ -8,6 +8,7 @@
 </head>
   <body>
     <nav class="navbar">
+      <div class="circle"></div>
  <!-- LOGO (looking like a nice curvy spine frfr)-->
         <img src="images/logo.png" alt="logo">
  <!-- NAVIGATION MENU -->
@@ -22,5 +23,36 @@
               </div>
             </ul>
           </nav>
+
+          <section>
+            <div class="container2">
+            <div class="content">
+              <div class="textBox">
+              <h2>something about alumni</h2>
+              <p>something else about each one. iajdoaidjaidj joiajdia jdoia ia joai jdoai djaoidj aoidj oiaioasdoi adoia jdoiaj oiaj sdoij a i ja soij</p>
+            </div>
+            <div class="imgBox">
+              <img src="images/MikeWazowski.webp" class="MikeWazowski">
+            </div>
+          </div>
+          </div>
+          <ul class="stud">
+            <li><img src="images/MikeWazowski.webp" alt="MikeWazowski" onclick="imgSlider('images/MikeWazowski.webp');changeCircleColor('#004b9c70')"></li>
+            <li><img src="images/Sully.png" alt="Sully" onclick="imgSlider('images/Sully.png');changeCircleColor('#ffffff6b')"></li>
+            <li><img src="images/Randal.png" alt="Randal" onclick="imgSlider('images/Randal.png');changeCircleColor('#004b9c70')"></li>
+          </ul>
+          </section>
+
+          <script type="text/javascript">
+            function imgSlider(anything){
+              document.querySelector('.MikeWazowski').src = anything;
+            }
+
+            function changeCircleColor(color){
+              const circle = document.querySelector('.circle');
+              circle.style.background = color;
+            }
+          </script>
+  
     </body>
 </html>
