@@ -7,6 +7,7 @@
     --white: #FFFFFF;
     --mu-blue: #004C9C;
     --mu-green: #29ABE2;
+    --black: #000000;
     
     /* Secondary Colors */
     --mu-purple: #b38dff;
@@ -54,63 +55,44 @@
     border-radius : 50%;
     width: 100px;
     height: 100px;
+    cursor: pointer;
   }
 
-  .navbar {
+
+   /*nav bar*/
+  .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     background-color:var(--mu-blue);
+    box-shadow: 2px 2px 10px var(--black);
   }
 
-  .nav-links a {
+  .navbar img{
+    width: 64px;
+  }
+
+
+  .nav-links a{
     color:var(--white);
   }
 
-  .logo {
-    font-size: 32px;
-  }
 
-  .menu {
+  .menu{
     display: flex;
     gap: 1em;
     font-size: 18px;
   }
 
-  .menu li:hover {
-    background-color: var(--light-green);
+  .menu li:hover{
+    background-color: var(--light-blue);
+    color: var(--mu-blue);
     border-radius: 5px;
+    box-shadow: 2px 2px 10px var(--black);
     transition: 0.3s ease;
   }
 
-  .menu li {
+  .menu li{
     padding: 5px 14px;
-  }
-
-  .services{
-    position: relative;
-  }
-
-  .dropdown {
-    background-color: var(--mu-blue);
-    padding: 1em 0;
-    position: absolute;
-    display: none;
-    border-radius: 8px;
-    top: 35px;
-  }
-
-  .dropdown li {
-  padding: 0.5em 1em;
-  width: 8em;
-  text-align: center;
-  }
-
-  .dropdown li:hover {
-    background-color: var(--light-green)
-  }
-
-  .services:hover .dropdown {
-    display: block;
   }
