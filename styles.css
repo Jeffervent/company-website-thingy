@@ -96,6 +96,7 @@
 
   .menu li{
     padding: 5px 14px;
+    align-items: center;
   }
 
      /*background cont*/
