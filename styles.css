@@ -83,7 +83,10 @@
 
   .menu{
     display: flex;
-    position:relative;
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     align-items: center;
     gap: 1em;
     font-size: 18px;
