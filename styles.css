@@ -63,15 +63,15 @@
     position: center;
     display: flex;
     width: 100%;
+    padding: 20px;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
     background-color:var(--mu-blue);
     box-shadow: 2px 2px 10px var(--black);
   }
 
   .navbar img{
-    width: 64px;
+    width: 300px;
   }
 
 
