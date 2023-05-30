@@ -257,4 +257,12 @@ footer li{
   background-color: var(--mu-blue);
 }
 
+.apps {
+  position: center; 
+  float: none;
+  position: absolute;
+  align-items: center;
+  gap: 1em;
+}
+
 /* if possible change font to match whole page */ 
