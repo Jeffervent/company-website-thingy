@@ -5,7 +5,7 @@
     --dark-light-green: #5aff4a;
     --light-green: #9cff6a;
     --white: #FFFFFF;
-    --mu-blue: #004C9C;
+    --mu-blue: #0071BC;
     --mu-oblue: #01356d3b;
     --mu-odblue: #0011243b;
     --mu-green: #29ABE2;
@@ -226,4 +226,15 @@ footer li{
   font-size: 15px;
   cursor: pointer;
   transition: 0.3s ease;
+}
+
+.covidbanner{
+  padding: 10px;
+  background-color: var(--dark-light-green);
+}
+
+.covidbanner h1{
+  text-align: center;
+  color: var(--white);
+
 }
