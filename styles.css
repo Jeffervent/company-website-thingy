@@ -234,6 +234,7 @@ footer li{
   transition: 0.3s ease;
 }
 
+<<<<<<< Updated upstream
 .covidbanner{
   padding: 15px;
   background-color: var(--mu-green);
@@ -265,4 +266,6 @@ footer li{
   gap: 1em;
 }
 
-/* if possible change font to match whole page */ 
+/* if possible change font to match whole page */ /* if possible change font to match whole page */ 
+=======
+>>>>>>> Stashed changes
