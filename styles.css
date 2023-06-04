@@ -272,16 +272,25 @@ footer input{
 }
 
 .nav2 {
-  padding: 40px;
-  background-color: var(--mu-blue);
+  position: center;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color:var(--mu-blue);
+  box-shadow: 2px 2px 10px var(--black);
 }
 
-.apps {
-  position: center; 
+.imgicons {
+  display: flex;
   float: none;
   position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   align-items: center;
   gap: 1em;
+  font-size: 18px;
 }
 
 /* if possible change font to match whole page */ 
