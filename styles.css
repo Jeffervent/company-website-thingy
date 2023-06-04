@@ -234,7 +234,25 @@ footer li{
   transition: 0.3s ease;
 }
 
-<<<<<<< Updated upstream
+footer li:hover{
+  color: var(--white)
+}
+
+footer p{
+  color: var(--mu-cpurple)
+}
+
+footer input{
+  width: 220px;
+  padding: 15px 12px;
+  background: var(--dark-light-green);
+  border:none;
+  outline: none;
+  color:var(--white);
+}
+
+/*We are too good at keeping this organized based on hiarchy (insert all the sarcasm i have here)*/
+
 .covidbanner{
   padding: 15px;
   background-color: var(--mu-green);
@@ -267,5 +285,3 @@ footer li{
 }
 
 /* if possible change font to match whole page */ 
-=======
->>>>>>> Stashed changes
