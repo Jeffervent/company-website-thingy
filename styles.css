@@ -293,4 +293,8 @@ footer input{
   font-size: 18px;
 }
 
+.imgicons a {
+  color: var(--white);
+}
+
 /* if possible change font to match whole page */ 
