@@ -432,6 +432,7 @@ article h2{
   color: var(--white);
   transition: color 0.3s ease-out;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 figure{
