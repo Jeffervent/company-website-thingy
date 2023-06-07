@@ -458,6 +458,11 @@ article a{
   color: var(--black);
 }
 
+article p{
+  padding-left:5px ;
+  padding-right: 5px;
+}
+
 article a:focus{
   outline: 1px dotted var(--dark-green);
 }
