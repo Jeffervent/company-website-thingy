@@ -479,7 +479,7 @@ article a{
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  color: var(--white);
+  color: var(--mu-green);
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
