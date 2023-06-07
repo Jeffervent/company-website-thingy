@@ -431,6 +431,8 @@ article h2{
   letter-spacing: 0.06em;
   color: var(--white);
   transition: color 0.3s ease-out;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 figure{
@@ -456,14 +458,12 @@ article a{
   align-items: center;
   text-decoration: none;
   color: var(--white);
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 article p{
-  padding-left:5px ;
-  padding-right: 5px;
+  padding-left:10px ;
+  padding-right: 10px;
 }
 
 article a:focus{
