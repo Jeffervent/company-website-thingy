@@ -177,12 +177,12 @@
   }
 
   .container h2 {
-    font-size: 160px ;
+    font-size: 120px ;
     color: var(--white);
   }
 
   .container p {
-    font-size: 50px;
+    font-size: 40px;
     color: var(--white);
   }
 
@@ -272,6 +272,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .container2 p {
+    margin-top: 20px;
   }
 
      /*footer*/
