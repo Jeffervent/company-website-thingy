@@ -309,6 +309,12 @@ footer input{
   border:none;
   outline: none;
   color:var(--white);
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.blue {
+  padding-left: 10px;
 }
 
 /*We are too good at keeping this organized based on hiarchy (insert all the sarcasm i have here)*/
