@@ -459,6 +459,8 @@ article a{
   text-decoration: none;
   color: var(--white);
   padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 article p{
