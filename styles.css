@@ -22,9 +22,14 @@
     box-sizing: border-box;
   }
 
-  body {
-    font-family: system-ui;
-    height: 1000vh;
+
+  @font-face {
+    font-family:'Futura' ;
+    src: url(images/Futura.ttc);
+  }
+
+  body{
+    font-family: 'Futura';
   }
 
   a {
@@ -82,7 +87,7 @@
   }
 
   .nav-link{
-    background-color: var(--light-blue);
+    background-color: var(--mu-blue);
 
   }
 
@@ -117,7 +122,7 @@
     background-color:var(--white) ;
    }
 
-   @media(max-width:1300px){
+   @media(max-width:1000px){
     .hamburger{
       display: block;
     }
@@ -149,8 +154,9 @@
     .nav-menu.active{
       left: 0;
     }
- }
 
+
+   }
 
 
      /*background cont*/
@@ -383,11 +389,17 @@ max-width: 100px
 
 .containersb input {
   display: flex;
+  margin-left: 50px;
+  width: 50%;
+  height: 40px;
   float: left;
   position: relative;
   align-items: start;
 }
 
+.containersb p{
+  margin-left: 50px;
+}
 /* Blog cards */
 
 article{
@@ -475,4 +487,14 @@ article:has(:hover, :focus){
   background-color: var(--mu-blue);
 }
 
- 
+ @media(max-width:1200px){
+  .imgicons {
+    gap: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: var(--mu-blue);
+    width: 100%;
+    transition: 0.3s;
+    margin-left: 50px;
+}
+ }
