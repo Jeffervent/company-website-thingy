@@ -500,6 +500,7 @@ article a .icon{
   width: 24px;
   height: 24px;
   margin-left: 5px;
+  padding-top:5px ;
   transform: translate(var(--link-icon-translate));
   opacity: var(--link-icon-opacity);
   transition: all 0.3s;
@@ -507,7 +508,7 @@ article a .icon{
 
 article:has(:hover, :focus){
   --img-scale:1.1;
-  --title-color: var(--mu-cwhite);
+  --title-color: var(--mu-green);
   --link-icon-translate:0;
   --link-icon-opacity:1;
   box-shadow: var(--black) 0px 10px 36px 0px, var(--light-blue)0px 0px 0px 1px;
