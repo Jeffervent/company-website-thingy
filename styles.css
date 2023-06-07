@@ -177,7 +177,7 @@
   }
 
   .container h2 {
-    font-size: 180px ;
+    font-size: 160px ;
     color: var(--white);
   }
 
@@ -429,7 +429,7 @@ article h2{
   margin:0 0 18px 0;
   font-size: 1.9rem;
   letter-spacing: 0.06em;
-  color: var(--mu-cpurple);
+  color: var(--white);
   transition: color 0.3s ease-out;
 }
 
@@ -455,7 +455,8 @@ article a{
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
+  padding-left: 5px;
 }
 
 article p{
