@@ -176,6 +176,16 @@
     text-align: center;
   }
 
+  .container h2 {
+    font-size: 180px ;
+    color: var(--white);
+  }
+
+  .container p {
+    font-size: 50px;
+    color: var(--white);
+  }
+
 
    /*alumni stuff*/
 
