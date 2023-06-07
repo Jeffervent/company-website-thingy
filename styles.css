@@ -9,6 +9,7 @@
     --mu-oblue: #01356d3b;
     --mu-odblue: #0011243b;
     --black: #000000;
+    --opaque:#86898d65;
     
     /* alumni bg colors */
     --mu-cwhite: #ffffff6b;
@@ -415,13 +416,13 @@ max-width: 100px
 
 article{
   --img-scale: 1.001;
-  --title-color:var(--black);
+  --title-color:var(--mu-blue);
   --link-icon-translate: -20px;
   --link-icon-opacity:0;
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: var(--matcha-green);
+  background: var(--mu-oblue);
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
@@ -439,7 +440,7 @@ article h2{
   margin:0 0 18px 0;
   font-size: 1.9rem;
   letter-spacing: 0.06em;
-  color: var(--white);
+  color: var(--mu-green);
   transition: color 0.3s ease-out;
   padding-left: 10px;
   padding-top: 10px;
@@ -476,10 +477,11 @@ article a{
 article p{
   padding-left:10px ;
   padding-right: 10px;
+  color: var(--white);
 }
 
 article a:focus{
-  outline: 1px dotted var(--dark-green);
+  outline: 1px dotted var(--black);
 }
 
 article a .icon{
@@ -497,7 +499,7 @@ article:has(:hover, :focus){
   --title-color: var(--mu-cwhite);
   --link-icon-translate:0;
   --link-icon-opacity:1;
-  box-shadow: var(--dark-green) 0px 10px 36px 0px, var(--light-blue)0px 0px 0px 1px;
+  box-shadow: var(--black) 0px 10px 36px 0px, var(--light-blue)0px 0px 0px 1px;
 }
 
 .blog{
