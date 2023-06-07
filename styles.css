@@ -394,6 +394,12 @@ max-width: 100px
   flex-direction: column;
 }
 
+.containersb img {
+  align-items: flex-end;
+  width: 300px;
+
+}
+
 .containersb h1 {
   color: var(--dark-green);
   font-size: 35px;
@@ -528,3 +534,15 @@ article:has(:hover, :focus){
     margin-left: 50px;
 }
  }
+
+ .closer {
+  background-color: var(--mu-blue);
+  padding: 25px;
+  
+ }
+
+ .closer img {
+ width: 300px;
+ margin-left: 40%;
+ }
+
