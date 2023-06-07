@@ -22,9 +22,14 @@
     box-sizing: border-box;
   }
 
-  body {
-    font-family: system-ui;
-  
+
+  @font-face {
+    font-family:'Futura' ;
+    src: url(images/Futura.ttc);
+  }
+
+  body{
+    font-family: 'Futura';
   }
 
   a {
