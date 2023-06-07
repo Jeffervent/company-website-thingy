@@ -42,7 +42,9 @@
   }
   
   h1, h2, h3 {
-    color: var(--secondary-blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 22px;
   }
   
   a {
@@ -281,8 +283,8 @@
      /*footer*/
 
 footer{
-  padding: 8vw;
-  background-color: var(--mu-blue);
+  padding: 4vw;
+  background-color: var(--mu-green);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -506,6 +508,8 @@ article:has(:hover, :focus){
 .blog{
   display:grid;
   padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
   gap: 24px;
   background-color: var(--mu-blue);
