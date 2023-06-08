@@ -613,3 +613,25 @@ news p:first-child::first-line {
     grid-template-columns: 1fr;
   }
 }
+<<<<<<< Updated upstream
+=======
+
+.error {
+  width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover ;
+    background-image:linear-gradient(var(--mu-oblue),var(--mu-odblue)), url(images/404.png) ;
+    background-attachment: fixed ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.error p {
+  font-size: 80px;
+  color: var(--white);
+}
+>>>>>>> Stashed changes
