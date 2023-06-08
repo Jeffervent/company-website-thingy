@@ -613,8 +613,6 @@ news p:first-child::first-line {
     grid-template-columns: 1fr;
   }
 }
-<<<<<<< Updated upstream
-=======
 
 .error {
   width: 100%;
@@ -634,4 +632,3 @@ news p:first-child::first-line {
   font-size: 80px;
   color: var(--white);
 }
->>>>>>> Stashed changes
